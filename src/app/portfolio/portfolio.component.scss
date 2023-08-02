@@ -1,0 +1,155 @@
+.arrow_rb {
+    display: flex;
+    width: 250px;
+    height: 800px;
+    background-image: url(../../assets/img/arrow-lb-2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    transform: rotateZ(270deg);
+    transform-origin: 178px 70px;
+
+    &:hover {
+        animation: scrolling_rb 1.5s infinite;
+    }
+}
+
+.arrow_lb {
+    display: flex;
+    width: 1100px;
+    height: 250px;
+    background-image: url(../../assets/img/arrow-lb-2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 750px;
+    margin-top: 50px;
+
+    &:hover {
+        animation: scrolling_lb 1.5s infinite;
+    }
+}
+
+@keyframes scrolling_lb {
+    from {
+        background-position-x: 1000px;
+        background-position-y: -250px;
+    }
+
+    to {
+        background-position-x: 750px;
+        background-position-y: 0px;
+    }
+}
+
+@keyframes scrolling_rb {
+    from {
+        background-position-x: 250px;
+        background-position-y: -250px;
+    }
+
+    to {
+        background-position-x: 0px;
+        background-position-y: 0px;
+    }
+}
+
+.port {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -550px;
+}
+
+.portfolio {
+    display: flex;
+    font-size: 78px;
+    font-family: Syne-ExtraBold, sans-serif;
+    justify-content: center;
+    width: 525px;
+}
+
+.portfolio_txt {
+    font-family: Overpass-regular, sans-serif;
+    width: 525px;
+    font-size: 23px;
+}
+
+.space_3 {
+    display: flex;
+    height: 80px;
+}
+
+@media (max-width: 1285px) {
+    .arrow_lb {
+        background-position-x: 500px;
+
+        &:hover {
+            animation: scrolling_lbt 1.5s infinite;
+        }
+    }
+
+    @keyframes scrolling_lbt {
+        from {
+            background-position-x: 750px;
+            background-position-y: -250px;
+        }
+    
+        to {
+            background-position-x: 500px;
+            background-position-y: 0px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .arrow_lb {
+        background-position-x: 50px;
+
+        &:hover {
+            animation: scrolling_lbm 1.5s infinite;
+        }
+    }
+
+    @keyframes scrolling_lbm {
+        from {
+            background-position-x: 300px;
+            background-position-y: -250px;
+        }
+    
+        to {
+            background-position-x: 50px;
+            background-position-y: 0px;
+        }
+    }
+
+    .portfolio {
+        font-size: 32px;
+        max-width: 200px;
+    }
+
+    .portfolio_txt {
+        max-width: 200px;
+        font-size: 23px;
+    }
+
+    .arrow_rb {
+        display: flex;
+        width: 250px;
+        height: 250px;
+        background-position-x: 0px;
+        transform: rotateZ(270deg);
+        transform-origin: 0px 0px;
+        margin-top: 260px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        &:hover {
+            animation: scrolling_rb 1.5s infinite;
+        }
+    }
+
+    .port {
+        margin-top: -300px;
+    }
+}

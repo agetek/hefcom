@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:guide x="380.619" y="364.801" angle="90"/>
+  </defs>
+  <rect x="100" y="100" width="300" height="25" style="paint-order: fill; transform-box: fill-box; transform-origin: 50% 50%;">
+    <animateTransform type="rotate" additive="sum" attributeName="transform" values="0;-45;-45" begin="0s" dur="1.5s" fill="freeze" keyTimes="0; 0.66667; 1" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" repeatCount="indefinite" max="1.5s"/>
+    <animate attributeName="width" values="300;150;150" begin="0s" dur="1.5s" fill="freeze" keyTimes="0; 0.666667; 1" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" repeatCount="indefinite" max="1.5s"/>
+    <animateTransform type="translate" additive="sum" attributeName="transform" values="0 0;214 150;27 147" dur="1.5s" fill="freeze" calcMode="spline" keyTimes="0; 0.66667; 1" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" repeatCount="indefinite" max="1.5s"/>
+  </rect>
+  <rect x="100" y="237.5" width="300" height="25" style="paint-order: fill; transform-box: fill-box; transform-origin: 50% 50%;">
+    <animateTransform type="rotate" additive="sum" attributeName="transform" values="0;45;45" begin="0s" dur="1.5s" fill="freeze" keyTimes="0; 0.66667; 1" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" repeatCount="indefinite" max="1.5s"/>
+  </rect>
+  <rect x="100" y="375" width="300" height="25" style="paint-order: fill; transform-box: fill-box; transform-origin: 50% 50%;">
+    <animateTransform type="rotate" additive="sum" attributeName="transform" values="0;-45;-45" dur="1.5s" fill="freeze" calcMode="spline" keyTimes="0; 0.66667; 1" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" repeatCount="indefinite" max="1.5s"/>
+    <animate attributeName="width" values="300;150;150" dur="1.5s" fill="freeze" keyTimes="0; 0.66667; 1" calcMode="spline" keySplines="0 0 1 1; 0.42 0 0.58 1" repeatCount="indefinite" max="1.5s"/>
+    <animateTransform type="translate" additive="sum" attributeName="transform" values="0 0;-112 -45;75 -45" dur="1.5s" fill="freeze" calcMode="spline" keyTimes="0; 0.675438; 1" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" repeatCount="indefinite" max="1.5s"/>
+  </rect>
+</svg>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="100" width="150" height="25" style="paint-order: fill; transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0.707106, -0.707107, 0.707107, 0.707106, 176.871757, 85.371843)"/>
+  <rect x="100" y="237.5" width="300" height="25" style="paint-order: fill; transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 0.000004, 0.000096)"/>
+  <rect x="50" y="375" width="150" height="25" style="paint-order: fill; transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, 71.871862, -84.628145)"/>
+</svg>

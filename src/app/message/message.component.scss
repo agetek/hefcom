@@ -1,0 +1,41 @@
+.back {
+    display: flex;
+    margin-top: 50px;
+    color: black;
+    text-decoration: none;
+    font-family: Overpass-regular, sans-serif;
+    padding: 20px 60px;
+    font-size: 23px;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #000;
+    justify-content: center;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 125ms ease-in-out;
+
+    &:hover {
+        padding: 20px 80px;
+        font-family: Overpass-Bold, sans-serif;
+    }
+}
+
+.sent {
+    display: flex;
+    font-family: Syne-ExtraBold, sans-serif;
+    font-size: 32px;
+    text-align: center;
+
+    &:hover {
+        color: #00BC8F;
+        ;
+    }
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}

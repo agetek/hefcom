@@ -1,0 +1,354 @@
+.frontend {
+    font-family: Syne-ExtraBold, sans-serif;
+    font-size: 128px;
+    margin-top: -40px;
+}
+
+.space_1 {
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+
+.front_dev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.line_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    border: 3px solid black;
+    width: 500px;
+    height: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-family: Overpass-Bold;
+    margin-left: 20px;
+    color: #00BC8F;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.side_email {
+    display: flex;
+    position: absolute;
+    font-family: Overpass-regular, sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
+    left: 100px;
+    top: 630px;
+    transform-origin: 0 0;
+    transform: rotateZ(-90deg);
+}
+
+.scroll_down {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 80px;
+    max-width: 80px;
+    right: 100px;
+    bottom: 10px;
+}
+
+.scroll_down_txt {
+    font-family: Overpass-regular, sans-serif;
+    font-size: 23px;
+    width: 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+.scroll_down_ani {
+    width: 80px;
+    height: 150px;
+    background-image: url(../../assets/img/arrow.svg);
+    background-size: cover;
+    animation: scrolling 1.5s infinite ease-in-out;
+    background-position-y: -180px;
+}
+
+@keyframes scrolling {
+    from {
+        background-position-y: -180px;
+    }
+
+    to {
+        background-position-y: 0px;
+    }
+}
+
+.about_me_and_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 600px;
+    align-items: center;
+}
+
+.about_me_title {
+    display: flex;
+    font-family: Syne-ExtraBold, sans-serif;
+    font-size: 72px;
+
+    &:hover {
+        color: #00BC8F;
+        ;
+    }
+}
+
+.about_me_txt {
+    display: flex;
+    font-family: Overpass-regular, sans-serif;
+    font-size: 23px;
+    flex-direction: column;
+}
+
+.about_me_button {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-family: Overpass-regular, sans-serif;
+    padding: 20px 60px;
+    font-size: 23px;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #000;
+    justify-content: center;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 125ms ease-in-out;
+
+    &:hover {
+        padding: 20px 80px;
+        font-family: Overpass-Bold, sans-serif;
+    }
+}
+
+.about_me_img {
+    display: flex;
+    width: 385px;
+    height: 385px;
+}
+
+.about_me_box {
+    display: flex;
+    border: 0px solid #000;
+    width: 385px;
+    height: 385px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+
+    &:hover {
+        border: 4px solid #000;
+    }
+}
+
+
+.about_me_img_and_canvas {
+    display: flex;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 405px;
+}
+
+@media (max-width: 1285px) {
+    .frontend {
+        font-family: Syne-ExtraBold, sans-serif;
+        font-size: 60px;
+        margin-top: -20px;
+    }
+
+    .line {
+        border: 2px solid black;
+        width: 120px;
+        height: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    .name {
+        font-family: Overpass-Bold;
+        margin-left: 10px;
+        color: #00BC8F;
+        font-size: 36px;
+        display: flex;
+        align-items: center;
+    }
+
+    .side_email {
+        font-size: 23px;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .hide_mobile {
+        display: none;
+    }
+
+    .show_mobile {
+        display: flex;
+    }
+
+    .scroll_down {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        width: 80px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .about_me_and_img {
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_me {
+        flex: 1;
+        width: auto;
+    }
+
+    .about_me_img_and_canvas {
+        justify-content: center;
+    }
+
+    .about_me_box {
+        margin-left: 40px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .frontend {
+        font-family: Syne-ExtraBold, sans-serif;
+        font-size: 30px;
+        margin-top: -10px;
+    }
+
+    .line {
+        border: 1.5px solid black;
+        width: 80px;
+        height: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    .name {
+        font-family: Overpass-Bold;
+        margin-left: 10px;
+        color: #00BC8F;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .side_email {
+        font-size: 23px;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .hide_mobile {
+        display: none;
+    }
+
+    .show_mobile {
+        display: flex;
+    }
+
+    .scroll_down {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        width: 60px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .scroll_down_txt {
+        font-family: Overpass-regular, sans-serif;
+        font-size: 23px;
+        width: 60px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .scroll_down_ani {
+        width: 60px;
+        background-image: url(../../assets/img/arrow.svg);
+        background-size: cover;
+        animation: scrolling 1.5s infinite ease-in-out;
+        background-position-y: -180px;
+        max-height: 112px;
+    }
+
+
+    .about_me_and_img {
+        width: auto;
+    }
+
+    .about_me {
+        width: auto;
+    }
+
+    .about_me_img_and_canvas {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about_me_img {
+        display: flex;
+        width: 230px;
+        height: 230px;
+    }
+
+    .about_me_box {
+        width: 230px;
+        height: 230px;
+    }
+
+    .about_me_title {
+        display: flex;
+        font-family: Syne-ExtraBold, sans-serif;
+        font-size: 32px;
+    
+        &:hover {
+            color: #00BC8F;
+            ;
+        }
+    }
+
+    .about_me_button {
+        padding: 20px 30px;
+    
+        &:hover {
+            padding: 20px 50px;
+            font-family: Overpass-Bold, sans-serif;
+        }
+    }
+
+}

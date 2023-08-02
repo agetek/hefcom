@@ -1,0 +1,38 @@
+<div *ngIf="this.port.orient == 0" class="port_outer" (mouseenter)="this.enter()" (mouseleave)="this.leave()">
+    <div class="port_number">0{{ this.i + 1 }}/04</div>
+    <div class="port_side {{this.stil4}}">
+        <div class="port_title">{{ this.port.title }}</div>
+        <div class="port_subtitle">{{ this.port.subtitle }}</div>
+        <div class="port_text">{{ this.port.text }}</div>
+        <div class="port_link_container">
+            <div class="port_link_outer"><a class="port_link" href="{{ this.port.url }}" target="_blank">Visit Project</a></div>
+            <div class="port_link_outer"><a class="port_link" href="{{ this.port.urlgithub }}" target="_blank">Github</a></div>
+        </div>
+    </div>
+    <div class="port_inner">
+        <div class="port_img {{ this.stil2 }}"
+            [style]="'background-image: url(../../assets/img/' + this.port.img + ');'">
+        </div>
+        <div class="port_canvas {{ this.stil1 }}"></div>
+        <div class="port_arrow {{ this.stil3 }}"></div>
+    </div>
+</div>
+<div *ngIf="this.port.orient == 1" class="port_outer_1" (mouseenter)="this.enter()" (mouseleave)="this.leave()">
+    <div class="port_number_1">0{{ this.i + 1 }}/04</div>
+    <div class="port_side_1 {{this.stil5}}">
+        <div class="port_title">{{ this.port.title }}</div>
+        <div class="port_subtitle">{{ this.port.subtitle }}</div>
+        <div class="port_text">{{ this.port.text }}</div>
+        <div class="port_link_container">
+            <div class="port_link_outer"><a class="port_link" href="{{ this.port.url }}" target="_blank">Visit Project</a></div>
+            <div class="port_link_outer"><a class="port_link" href="{{ this.port.urlgithub }}" target="_blank">Github</a></div>
+        </div>
+    </div>
+    <div class="port_inner_1">
+        <div class="port_img {{ this.stil2 }}"
+            [style]="'background-image: url(../../assets/img/' + this.port.img + ');'">
+        </div>
+        <div class="port_canvas {{ this.stil1 }}"></div>
+        <div class="port_arrow_1 {{ this.stil3 }}"></div>
+    </div>
+</div>

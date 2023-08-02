@@ -1,0 +1,29 @@
+<div class="space_4" id="say"></div>
+<div class="black">
+    <div class="say">Say Hi!</div>
+</div>
+<div class="contact">
+    <div class="want">Want to discuss a new project?</div>
+    <div class="say_hello">Say hello! let's discuss your ideas and make it happen</div>
+    <form method="post" (ngSubmit)="checkMessage()" class="form">
+        <input [(ngModel)]="familyName" class="form_name {{ showNameMark }}" type="text" placeholder="Your name" name="name">
+        <div class="error {{ showNameError }}">Your name is required</div>
+        <input [(ngModel)]="email" class="form_email {{ showEmailMark }}" type="email" placeholder="Your email" name="email">
+        <div class="error {{ showEmailError }}">Your email is required</div>
+        <textarea [(ngModel)]="message" class="form_area  {{ showMessageMark }}" placeholder="Your message" name="message"></textarea>
+        <div class="error {{ showMessageError }}">Your message is empty</div>
+        <input type="submit" value="Send message" class="send" [disabled]="disable">
+    </form>
+    <div class="footer">
+        <div class="logo_copy">
+            <div class="log"></div>
+            <div class="copy">&copy; Henrik Hefelmann 2023</div>
+            <div class="imprint"><a routerLink="imprint" class="imprint_link">Imprint & legal notes</a></div>
+        </div>
+        <div class="social">
+            <a href="https://github.com/agetek" target="_blank" class="github"></a>
+            <a href="mailto:henrik.hefelmann@gmail.com" target="_blank" class="email"></a>
+            <a href="https://www.linkedin.com/in/henrik-hefelmann-1266a832/" target="_blank" class="linkedin"></a>
+        </div>
+    </div>
+</div>

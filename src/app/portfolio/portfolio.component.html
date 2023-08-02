@@ -1,0 +1,10 @@
+<div class="margin_lr">
+    <div class="arrow_rb"></div>
+    <div class="port">
+        <div class="space_3" id="portfolio"></div>
+        <div class="portfolio">Portfolio</div>
+        <div class="portfolio_txt">This page is a sample of my work - please feel free to try them out.</div>
+    </div>
+    <app-portpart *ngFor="let port of ports; let i=index;" [port]="port" [i]="i"></app-portpart>
+    <div class="arrow_lb"></div>
+</div>

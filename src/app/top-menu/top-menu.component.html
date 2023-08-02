@@ -1,0 +1,13 @@
+<div class="top {{ h100 }}">
+    <div class="tmenu">
+        <div class="logo"></div>
+        <div class="burger">
+            <div class="cross" [innerHtml]="output" (click)="openMenu()"></div>
+        </div>
+    </div>
+    <div class="options {{ options }}">
+        <a class="menu_button" href="#about_me" (click)="openMenu()">About Me</a>
+        <a class="menu_button" href="#skills" (click)="openMenu()">My Skills</a>
+        <a class="menu_button" href="#portfolio" (click)="openMenu()">Portfolio</a>
+    </div>
+</div>

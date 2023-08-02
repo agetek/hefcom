@@ -1,0 +1,148 @@
+.top {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.tmenu {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    background-image: url(../../assets/img/logo.svg);
+    background-position: center center;
+    width: 200px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.burger {
+    position: absolute;
+    right: 20px;
+}
+
+.cross {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.menu_button {
+    display:flex;
+    position: relative;
+    width: 587px;
+    height: 167px;
+    font-family: Syne-Bold, sans-serif;
+    font-size: 96px;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: difference;
+
+    &::after {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 31%;
+        width: 20%;
+        border-left: 4px solid white;
+        border-bottom: 4px solid white;
+        content: "";
+    }
+
+    &:hover:after {
+        position: absolute;
+        border-left: 0px solid white;
+        animation: borderbottom 500ms ease-in-out;
+        width: 30%;
+        left: unset;
+        right: 0;
+    }
+}
+
+@keyframes borderbottom {
+    0% {
+        width: 21%;
+        left: 0;
+    }
+
+    33% {
+        width: 100%;
+    }
+
+    66% {
+        width: 100%;
+        right: 0;
+    }
+
+    100% {
+        left: unset;
+        width: 30%;
+        right: 0;
+    }
+}
+
+.options {
+    display:flex;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: white;
+    background-image: url(../../assets/img/menu_bottom.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 1285px) {
+    .logo {
+        top: 10px;
+        width: 150px;
+        height: 60px;
+    }
+
+    .menu_button {
+        width: 300px;
+        height: 85px;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        top: 20px;
+        width: 100px;
+        height: 40px;
+    }
+
+    .menu_button {
+        width: 200px;
+        height: 42px;
+        font-size: 25px;
+    }
+}
