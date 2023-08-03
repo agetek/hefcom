@@ -1,3 +1,41 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6.5 13H33.5C33.8978 13 35 13 35 13C35 13 35 14.1022 35 14.5V38.5C35 38.8978 35 40 35 40C35 40 33.8978 40 33.5 40H6.5C6.10218 40 5 40 5 40C5 40 5 38.8978 5 38.5V14.5C5 14.1022 5 13 5 13C5 13 6.10218 13 6.5 13ZM32 19.357L20.108 30.007L8 19.324V37H32V19.357ZM8.7665 16L20.0915 25.993L31.253 16H8.7665Z" fill="#FFFCF3"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 40 40"
+   fill="none"
+   version="1.1"
+   id="svg593"
+   sodipodi:docname="email.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs597" />
+  <sodipodi:namedview
+     id="namedview595"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="20.1"
+     inkscape:cx="23.706468"
+     inkscape:cy="21.069652"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg593" />
+  <path
+     d="m 1.977612,0.06467662 h 36.044776 c 0.53106,0 2.002488,0 2.002488,0 0,0 0,1.63024868 0,2.21862908 V 37.781371 c 0,0.58838 0,2.218629 0,2.218629 0,0 -1.471428,0 -2.002488,0 H 1.977612 c -0.5310864,0 -2.00248762,0 -2.00248762,0 0,0 0,-1.630249 0,-2.218629 V 2.2833057 c 0,-0.5883804 0,-2.21862908 0,-2.21862908 0,0 1.47140122,0 2.00248762,0 z M 36.0199,9.4672266 20.144179,25.219493 3.9800995,9.4184168 V 35.562742 H 36.0199 Z M 5.0033706,4.5019348 20.122152,19.282442 35.022662,4.5019348 Z"
+     fill="#FFFCF3"
+     id="path591"
+     style="fill:#ffffff;stroke-width:1.4052" />
 </svg>

@@ -149,7 +149,7 @@
     background-image: url(../../assets/img/github.svg);
     width: 30px;
     height: 30px;
-    background-size: contain;
+    background-size: cover;
     transition: all 0.25s ease-in-out;
     cursor: pointer;
     &:hover {
@@ -162,7 +162,7 @@
     background-image: url(../../assets/img/email.svg);
     width: 30px;
     height: 30px;
-    background-size: contain;
+    background-size: cover;
     transition: all 0.25s ease-in-out;
     cursor: pointer;
     &:hover {
@@ -175,7 +175,7 @@
     background-image: url(../../assets/img/linkedin.svg);
     width: 30px;
     height: 30px;
-    background-size: contain;
+    background-size: cover;
     transition: all 0.25s ease-in-out;
     cursor: pointer;
     &:hover {

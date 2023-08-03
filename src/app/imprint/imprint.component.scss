@@ -37,6 +37,7 @@
     font-size: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    word-wrap: break-word;
 }
 
 .center {
@@ -44,5 +45,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+}
+
+.center_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+@media (max-width: 1285px) {
+    .title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 15px;
+    }
 }

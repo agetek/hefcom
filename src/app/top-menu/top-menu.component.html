@@ -1,8 +1,9 @@
 <div class="top {{ h100 }}">
     <div class="tmenu">
-        <div class="logo"></div>
+        <a class="logo" routerLink=""></a>
         <div class="burger">
-            <div class="cross" [innerHtml]="output" (click)="openMenu()"></div>
+            <div *ngIf="toggle" class="cross" (click)="openMenu()"><img src="../../assets/img/burger.svg" alt=""></div>
+            <div *ngIf="!toggle" class="cross" (click)="openMenu()"><img src="../../assets/img/close.svg" alt=""></div>
         </div>
     </div>
     <div class="options {{ options }}">
